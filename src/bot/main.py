@@ -5,7 +5,6 @@
 # of the EchoBot.
 
 from fastapi_poe import make_app
-from modal import Image, Stub, asgi_app
 
 from catbot import CatBot
 from chatgpt_allcapsbot import ChatGPTAllCapsBot
@@ -32,14 +31,6 @@ bot = EchoBot()
 # A chatbot based on a model hosted on HuggingFace.
 # bot = HuggingFaceBot("microsoft/DialoGPT-medium")
 
-# The following is setup code that is required to host with modal.com
-image = Image.debian_slim().pip_install_from_requirements("requirements.txt")
-# Rename "poe-server-bot-quick-start" to your preferred app name.
-stub = Stub("poe-server-bot-quick-start")
-
-
-@stub.function(image=image)
-@asgi_app()
 def fastapi_app():
     # Optionally, provide your Poe access key here:
     # 1. You can go to https://poe.com/create_bot?server=1 to generate an access key.
