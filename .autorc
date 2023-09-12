@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "git-tag",
+    "all-contributors",
+    "first-time-contributor",
+    "released"
+  ],
+  "owner": "csimplestring",
+  "repo": "server-bot-quick-start",
+  "name": "csimplestring",
+  "email": "csimplestring@gmail.com",
+}
