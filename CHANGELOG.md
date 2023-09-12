@@ -1,3 +1,15 @@
+# v0.0.2 (Tue Sep 12 2023)
+
+#### ⚠️ Pushed to `main`
+
+- try ([@csimplestring](https://github.com/csimplestring))
+
+#### Authors: 1
+
+- wangyi ([@csimplestring](https://github.com/csimplestring))
+
+---
+
 # v0.0.1 (Tue Sep 12 2023)
 
 :tada: This release contains work from new contributors! :tada:
