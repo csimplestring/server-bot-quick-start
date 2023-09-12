@@ -1,3 +1,16 @@
+# v0.0.4 (Tue Sep 12 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Merge remote-tracking branch 'refs/remotes/origin/main' ([@csimplestring](https://github.com/csimplestring))
+- fix ([@csimplestring](https://github.com/csimplestring))
+
+#### Authors: 1
+
+- wangyi ([@csimplestring](https://github.com/csimplestring))
+
+---
+
 # v0.0.3 (Tue Sep 12 2023)
 
 #### ⚠️ Pushed to `main`
